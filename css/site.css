@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kreon&family=Nunito+Sans&display=swap');
+
+h1 {font-size: 144px;font-family: 'Kreon', serif;}
+
+h2 {font-size: 72px;font-family: 'Kreon', serif;}
+
+html {font-size: 36px;font-family: 'Nunito Sans', sans-serif;}
+
+header {font-size:.67rem;}
+footer {font-size: .67rem;}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+}
+
+header {
+    background-color: black;
+    text-align: right;
+    padding: .3rem;
+}
+
+header a {
+    color:white;
+    text-decoration: none;
+    padding: .3rem;
+}
+
+footer {
+    color:white;
+    background-color:black;
+    text-align: center;
+    padding:.3rem;
+}
