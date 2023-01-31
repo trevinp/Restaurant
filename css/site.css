@@ -1,35 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@700&family=Nunito+Sans:ital,wght@0,300;1,300&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Kreon&family=Nunito+Sans&display=swap');
+html {
+   font-family: 'Nunito Sans', sans-serif;
+   font-weight: 300;
+   font-size: 36px;
+}
 
-h1 {font-size: 144px;font-family: 'Kreon', serif;}
+body {
+   max-width: 1440px;
+   margin: auto;
+}
 
-h2 {font-size: 72px;font-family: 'Kreon', serif;}
-
-html {font-size: 36px;font-family: 'Nunito Sans', sans-serif;}
-
-header {font-size:.67rem;}
-footer {font-size: .67rem;}
+h1, h2, h3, h4, h5, h6 {
+   font-family: 'Kreon', serif;
+   font-weight: 700;
+}
 
 h1 {
-    text-transform: uppercase;
-    letter-spacing: 1rem;
+   font-size: 4rem;
+   text-transform: uppercase;
+   letter-spacing: 1rem;
+   margin: 0;
+   line-height: 1em;
+   text-indent: 1rem;
+}
+
+h2 {
+   font-size: 2rem;
+   margin: 0;
 }
 
 header {
-    background-color: black;
-    text-align: right;
-    padding: .3rem;
+   background-color: #000000;
+   font-size: .67rem;
+   text-align: right;
+   padding: .4rem;
 }
 
 header a {
-    color:white;
-    text-decoration: none;
-    padding: .3rem;
+   color: #ffffff;
+   text-decoration: none;
+   padding: .3rem;
 }
 
 footer {
-    color:white;
-    background-color:black;
-    text-align: center;
-    padding:.3rem;
+   color: #ffffff;
+   background-color: #000000;
+   font-size: .67rem;
+   padding: .4rem;
+   text-align: center;
+}
+
+.hero {
+   text-align: center;
+   color: #ffffff;
+   position: relative;
+}
+
+.hero img {
+   max-width: 100%;
+}
+
+.hero-text {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.hero-text p {
+   margin: 0;
+}
+
+.main-info {
+   text-align: center;
+}
+
+.highlights {
+   display: flow-root;
+}
+
+.highlights .left {
+   width: 50%;
+   float: left;
+}
+
+.highlights .right {
+   width: 50%;
+   float: right;
+}
+
+.highlights-text {
+   display: inline-block;
+   width: 50%;
+}
+
+.highlights-text h2, .highlights-text p {
+   padding-left: .67rem;
+   padding-right: .67rem;
 }
